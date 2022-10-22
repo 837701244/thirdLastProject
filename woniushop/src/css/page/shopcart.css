@@ -1,0 +1,136 @@
+body {
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+.banner {
+    background:#333;
+    height:60px;
+    line-height: 60px;
+}
+.shopcart {
+    width: 1000px;
+    /*height: 490px;*/
+    margin: 80px auto;
+    /*position: relative;*/
+}
+.shopcart>.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 50px;
+    background: linear-gradient(to bottom, #ff4c76, #67aede);
+    -webkit-background-clip: text;  /*使用背景来填充文本*/
+    -webkit-text-fill-color: transparent; /*通过透明色来填充文本*/
+}
+.shopcart .allLabel{
+    font-size: 16px;
+    font-weight: bold;
+    color: #dd3300;
+    margin: 15px 0px;
+}
+.shopcart .box{
+    /*height: 405px;*/
+    /*overflow: hidden;!*超出部分隐藏*!*/
+}
+.shopcart .box tr {
+    border: 1px solid #e0e0e0;
+    border-top: 3px solid #b0b0b0;
+}
+.shopcart .box tr:first-child{
+    border-top : none;
+}
+.shopcart .item{
+    height: 120px;
+    text-align: center;
+}
+.shopcart .item .check{
+    width: 30px;
+}
+.shopcart .item .pimg{
+    width: 100px;
+}
+.shopcart .item .pimg>img {
+    width: 85px;
+    height: 85px;
+}
+.shopcart .item .info{
+    width: 300px;
+}
+.shopcart .item .size{
+    width: 160px;
+}
+.shopcart .item .price{
+    width: 90px;
+}
+.shopcart .item .num{
+    width: 100px;
+}
+.shopcart .item .num>input{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.shopcart .item .subtotal{
+    width: 120px;
+    font-weight: bold;
+}
+.shopcart .item .del{
+    width: 100px;
+    color: #dd3300;
+    font-size: 20px;
+}
+.shopcart .item .del:hover{
+    color: #ff0000;
+}
+
+.shopcart .footer{
+    height: 50px;
+    line-height: 50px;
+    width: 1000px;
+    margin: 1px auto;
+    background-color: #fff;
+    /*position: absolute;*/
+    /*bottom: 0px;*/
+    /*left: 0px;*/
+}
+.shopcart .footer .opt{
+    width: 390px;
+    float: left;
+}
+
+.shopcart .footer .opt a{
+    color: #666;
+    margin-left: 10px;
+}
+
+.shopcart .footer .cal{
+    color: #666;
+    float: right;
+}
+.shopcart .footer .cal>span{
+    margin-right: 20px;
+}
+.shopcart .footer .cal .num{
+    color: #dd3300;
+}
+
+.shopcart .footer .cal .totalPrice{
+    color: #dd3300;
+    font-size: 26px;
+}
+.shopcart .footer .cal .btn-cal{
+    border: none;
+    width: 120px;
+    height: 50px;
+    background: #dd3300;
+    opacity: 0.8;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+}
+.shopcart .footer .cal .btn-cal:hover{
+    opacity: 1;
+}
+

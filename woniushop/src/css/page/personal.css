@@ -1,0 +1,52 @@
+.aside-tab {
+    height: 560px;
+    padding: 50px 0px;
+}
+.aside-tab li{
+    line-height: 50px;
+}
+.default-addr{
+    padding: 10px 12px;
+    background:#666;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.order .item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.order .item .info {
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+    background: #f3f6e2;
+}
+.order .item .info .orderNo {
+    color: #3f3db5;
+}
+
+.order .item .info .orderAmount {
+    color: #ff6700;
+}
+
+.order .item .detail .subItem {
+    height: 70px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.order .item .detail .subItem div {
+    height: 70px;
+    line-height: 70px;
+}
+.order .item .detail .subItem .desc {
+    line-height: 1.5;
+    padding-top: 5px
+}
+.orderDetail .box>div{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px;
+    color: #666;
+}

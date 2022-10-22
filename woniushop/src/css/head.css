@@ -1,0 +1,12 @@
+.banner {
+    background:#333;
+    height:60px;
+    line-height: 60px;
+}
+.person {
+    color: #e0e0e0;
+    margin-left: 20px;
+}
+.person:hover {
+    color: #fff;
+}

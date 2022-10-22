@@ -1,0 +1,120 @@
+/*用户信息样式*/
+.order {
+    margin-top: 100px;
+}
+.order .userInfo .addr {
+    height: 150px;
+    border: 2px solid #b0b0b0;
+    padding: 10px;
+    border-radius: 8px;
+}
+.order .userInfo .logo span{
+    text-align: center;
+    line-height: 40px;
+    font-size: 26px;
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: #ff6700;
+    margin-top: 45px;
+    border-radius: 50%;
+    color: #fff;
+
+}
+.order .userInfo .info{
+    padding-left: 0px;
+    height: 130px;
+    line-height: 2;
+}
+.order .userInfo .name{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.order .userInfo .mobile{
+    font-size: 16px;
+    color: #999;
+}
+.order .userInfo .msg{
+    color: #ff6700;
+}
+/*订单样式*/
+.order .orderInfo {
+    margin-top: 50px;
+}
+.order .orderInfo .item{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.order .orderInfo .item .info {
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0px 10px;
+    background: #f3f6e2;
+}
+.order .orderInfo .item .info .orderNo {
+    color: #3f3db5;
+}
+
+.order .orderInfo .item .info .orderAmount {
+    color: #ff6700;
+}
+
+.order .orderInfo .item .detail .subItem {
+    height: 70px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.order .orderInfo .item .detail .subItem div {
+    height: 70px;
+    line-height: 70px;
+}
+.order .orderInfo .item .detail .subItem .desc {
+    line-height: 1.5;
+    padding-top: 5px
+}
+.orderInfo .orderDetail .box>div{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px;
+    color: #666;
+}
+/*购物车地址*/
+#shippingAddress .item {
+    height: 70px;
+    margin-bottom: 15px;
+
+}
+#shippingAddress .choose {
+    border: 1px solid #ff6700;
+    border-radius: 10px;
+}
+#shippingAddress .logo span {
+    display: block;
+    font-size: 18px;
+    width: 40px;
+    height: 40px;
+    background: #ff6700;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 15px;
+    border-radius: 50%;
+    color: #fff;
+}
+#shippingAddress .name {
+    font-size: 18px;
+    font-weight: bold;
+}
+#shippingAddress .mobile {
+    color: #a9a9a9;
+    margin: 0px 8px;
+}
+
+#shippingAddress .default {
+    border: 1px solid #ff6700;
+    padding: 2px 5px;
+    border-radius: 3px;
+    color: #ff6700;
+}

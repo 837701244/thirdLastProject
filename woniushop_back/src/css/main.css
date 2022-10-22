@@ -1,0 +1,26 @@
+.banner{
+    line-height: 80px;
+    /*background: linear-gradient(to right,#25225F,#BF44EC);*/
+    /*background: linear-gradient(to bottom,#333, #666);*/
+    background: rgba(0,0,0,.8)
+}
+.banner .userInfo{
+    color: #fff;
+    text-align: left;
+}
+.banner .userInfo a,
+.banner .userInfo span{
+    font-weight: bold;
+    color: #f0f0f0;
+    margin-left: 15px;
+}
+.banner .userInfo a:hover,
+.banner .userInfo span:hover{
+    color: #fff;
+}
+.clearfix::before,
+.clearfix::after{
+    display: table; /*表格模式*/
+    content: ''; /*内容*/
+    clear: both; /*清除浮动：解决父容器塌陷问题*/
+}

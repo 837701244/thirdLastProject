@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>订单</title>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <script src="../static/jquery-3.5.1.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--头部导航-->
+    <div class="navbar-fixed-top banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 navbar-left" id="orderUser" style="display: none">
+                    <img src="../images/user/4.jpg" width="40px" class="img-circle" alt="">
+                    <span class="person">admin</span>
+                </div>
+                <div class="col-md-5 navbar-right text-right">
+                    <a href="../index.html" class="btn btn-primary">
+                        <span class="glyphicon glyphicon-home"></span>
+                        首页
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--订单详情-->
+    <div class="container order">
+        <!--用户信息-->
+        <div class="row userInfo">
+            <div class="col-md-6 col-md-offset-3 addr" id="personalAddress">
+                <div class="logo col-md-2">
+                    <span class="glyphicon glyphicon-map-marker"></span>
+                </div>
+                <div class="info col-md-10">
+                    <p>
+                        <span class="name">张飞</span>
+                        <span class="mobile">188****4287</span>
+                    </p>
+                    <p>
+                        <span class="address">上海市浦东新区燕乔大厦15楼蜗牛学院前台</span>
+                        <span class="btn btn-link" data-toggle="modal" data-target="#shippingAddress">更换地址</span>
+                    </p>
+                    <p class="msg">收货不便时，可选择暂存服务</p>
+                </div>
+            </div>
+        </div>
+        <!--订单管理模块-->
+        <div class="row orderInfo">
+            <div class="col-md-12" >
+                <div class="item" id="orderBody">
+                    <div class="info">
+                        <div class="col-md-5 orderNo">订单号: <span>WNSHOP20220714171267</span></div>
+                        <div class="col-md-3 orderAmount">订单金额: ¥<span>400</span>元</div>
+                        <div class="col-md-3 col-md-offset-1 text-right" id="lijizhifu">
+                            <button type="button" class="btn btn-primary">立即支付</button>
+                        </div>
+                    </div>
+                    <div class="detail" id="orderProductInfo">
+                        <div class="subItem">
+                            <div class="col-md-2">
+                                <img src="../images/p1.webp" width="60">
+                            </div>
+                            <div class="col-md-4 desc">
+                                荣耀70 IMX800三主摄 双曲屏设计 高通骁龙778G Plus 66W快充 5G手机 8GB+256GB 流光水晶
+                            </div>
+                            <div class="col-md-2 text-center">100元</div>
+                            <div class="col-md-2 text-center">&times; 2</div>
+                            <div class="col-md-2 text-center">200元</div>
+                        </div>
+                        <div class="subItem">
+                            <div class="col-md-2">
+                                <img src="../images/p2.webp" width="60">
+                            </div>
+                            <div class="col-md-4 desc">
+                                荣耀70 IMX800三主摄 双曲屏设计 高通骁龙778G Plus 66W快充 5G手机 8GB+256GB 流光水晶
+                            </div>
+                            <div class="col-md-2 text-center">100元</div>
+                            <div class="col-md-2 text-center">&times; 2</div>
+                            <div class="col-md-2 text-center">200元</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--更换收货地址的模态框-->
+    <div class="modal fade" tabindex="-1" role="dialog" id="shippingAddress">
+        <div class="modal-dialog" style="width: 450px">
+            <div class="modal-content">
+                <div class="modal-header" style="background:#feae61; color: #fff">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title text-center">我的收货地址</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row box">
+                        <div class="col-md-10 col-md-offset-1" id="myshouhuo">
+                            <div class="row item">
+                                <div class="col-md-1 col-md-offset-1 logo">
+                                    <span class="glyphicon glyphicon-home"></span>
+                                </div>
+                                <div class="col-md-8 col-md-offset-1 info">
+                                    <div>
+                                        <span class="name">潘先生</span>
+                                        <span class="mobile">18817388888</span>
+                                        <span class="default">默认</span>
+                                    </div>
+                                    <div>
+                                        上海 上海市 浦东新区 由由燕乔大厦15层蜗牛学苑
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row item">
+                                <div class="col-md-1 col-md-offset-1 logo">
+                                    <span>赵</span>
+                                </div>
+                                <div class="col-md-8 col-md-offset-1 info">
+                                    <div>
+                                        <span class="name">赵先生</span>
+                                        <span class="mobile">17817386666</span>
+                                    </div>
+                                    <div>
+                                        河北省 唐山市 路北区 xxx烧烤摊618号
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

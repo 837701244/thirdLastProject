@@ -1,0 +1,49 @@
+
+.detail .title {
+    font-size:30px;
+}
+.detail .activity {
+    font-size: 12px;
+    color: #ff6700;
+}
+.detail .info {
+    font-size: 12px;
+    color: gray
+}
+.detail .price{
+    font-size: 35px;
+    color: red;
+}
+
+.detail .rule div{
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 30px;
+    border: 1px solid gray;
+    color: gray;
+    font-size: 16px;
+}
+.detail .rule .active {
+    border-color: #ff6700;
+    color: #ff6700;
+    font-weight: bold;
+}
+.option{
+    margin-top: 20px;
+}
+.option div{
+    float: left;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #fff;
+    font-size: 16px;
+}
+.option .shopcart{
+    background: linear-gradient(to right, yellow, orange);
+    border-radius: 20px 0px 0px 20px;
+}
+.option .buy{
+    background: linear-gradient(to right, orangered, darkorange);
+    border-radius: 0px 20px 20px 0px;
+}

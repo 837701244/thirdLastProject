@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商品展示</title>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <script src="../static/jquery-3.5.1.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--头部导航-->
+<div class="navbar-fixed-top banner">
+    <div class="container">
+        <div class="row" >
+            <div class="col-md-2 navbar-left"  id="proListHeader" style="display: none">
+                <img src="../images/user/4.jpg" width="40px" class="img-circle" alt="">
+                <span class="person">admin</span>
+            </div>
+            <div class="col-md-5 navbar-right text-right">
+                <a href="../index.html" class="btn btn-primary">
+                    <span class="glyphicon glyphicon-home"></span>
+                    首页
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--菜单栏-->
+<div class="container" style="margin-top:60px; line-height: 100px;">
+    <div class="row">
+        <div class="col-md-1">
+            <img src="../images/logo.jpg" width="100px" height="50px" alt="">
+        </div>
+        <div class="col-md-8" style="line-height: 80px;">
+            <ul class="nav nav-justified" id="ProductUl">
+                <li><a href="#">蜗牛手机</a></li>
+                <li><a href="#">蜗牛Plus</a></li>
+                <li><a href="#">电视</a></li>
+                <li><a href="#">笔记本</a></li>
+                <li><a href="#">家电</a></li>
+                <li><a href="#">路由器</a></li>
+                <li><a href="#">智能硬件</a></li>
+                <li><a href="#">服务</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3 text-right">
+            <form class="form-inline">
+                <div class="form-group">
+                    <label class="sr-only" for="kw">关键词</label>
+                    <input type="text" class="form-control" id="kw" name="keyword" style="height: 40px">
+                </div>
+                <button id="productSearch" type="button" class="btn btn-primary" style="height:40px">搜索</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--分割线-->
+<div style="border-top: 1px solid #e0e0e0;margin-bottom: 10px"></div>
+
+<!--查询商品展示区-->
+<div class="container">
+    <div class="row" id="productZhanshi">
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <a href="detail.html?pid=1">
+                    <img src="../images/p1.webp">
+                    <div class="caption">
+                        <h4 class="title">Redmi Note 10 Pro</h4>
+                        <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                        <p class="price">1599元起</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p2.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p3.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p4.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p5.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p6.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="thumbnail pro-item">
+                <img src="../images/p1.webp" alt="">
+                <div class="caption">
+                    <h4 class="title">Redmi Note 10 Pro</h4>
+                    <p class="info">天玑1100年度旗舰芯 / VC液冷散热 / 67W 闪充 5000mAh 大电池 </p>
+                    <p class="price">1599元起</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--分页导航条-->
+    <div class="row text-center">
+        <ul class="pagination" id="productPage">
+            <li><a href="">&laquo;</a></li>
+            <li class="active"><a href="">1</a></li>
+            <li><a href="">2</a></li>
+            <li><a href="">3</a></li>
+            <li><a href="">4</a></li>
+            <li><a href="">5</a></li>
+            <li><a href="">&raquo;</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
